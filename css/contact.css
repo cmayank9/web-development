@@ -1,0 +1,121 @@
+body{
+	background-color: #f4f4f4;
+	font: 15px/1.5 arial,halvetica,sans-serif;
+	padding= 0;
+	margin= 0;
+}
+
+header{
+	 background-color: #35424a;
+	 color: #ffffff;
+	 padding-top: 20px;
+	 min-height: 100px;
+	 border-bottom:  4px solid #00ccff;
+}
+header h1{
+	
+	font-size: 60px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px
+
+}
+
+header ul{
+	padding:0;
+	margin:0;
+}
+header li{
+	 padding: 0,20px,0,20px;
+	 display:inline;
+	 margin-top:50px;
+	 float:right;
+}
+header li a{
+	padding:20px;
+	text-decoration: none;
+	color:#ffffff;
+	font-weight: bold;
+}
+header li a:hover{
+    color: #ff9900;
+}
+
+#form{
+	background-image: url("elephant.jpg") ;
+	background-repeat: no-repeat;
+	 height: 500px;
+	 background-position: center;
+	 background-size: 100% ;
+	padding:100px;
+	color:#ffffff;
+	text-align: center;
+
+
+}
+
+#form form{
+	background-color: white;
+	 position: absolute;
+   
+	 right: 40%;
+    margin: 10px;
+    max-width: 600px;
+    padding: 16px;
+    opacity:0.7;
+
+
+
+}
+
+   
+
+
+}
+#form input[type=text], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0 22px 0;
+    
+    background: #f1f1f1;
+
+}
+ #form li{
+	margin:20px;
+	border:none;
+
+}
+#form li input{
+	padding:10px;
+	border:none;
+	border-bottom: 2px solid black;
+}
+
+
+#newsletter{
+	background-color:#35424a;
+	padding:20px;
+	height:50px;
+	border-top:  4px solid #00ccff;
+}
+
+#newsletter p{
+	font-size: 20px;
+    color:#ffffff;
+    margin-top: 10px;	
+}
+#newsletter form{
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+footer{
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 8px solid #ff3300;
+	background-color: #ff9933;
+	padding: 30px;
+	color:white;
+
+}
+
